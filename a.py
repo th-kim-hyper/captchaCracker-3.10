@@ -82,8 +82,6 @@ class Hyper:
     def saved_model_path(self):
         return os.path.join(self.base_dir, "model", self.captcha_type.value, ".weights.h5" if self.weights_only else "")
 
-    def model_validate
-
 CAPTCHA_TYPE = CaptchaType.GOV24
 WEIGHT_ONLY = False
 
